@@ -32,6 +32,7 @@ export const CONTRACTS: Record<ChecksumAddress, Contracts> = {
   mainnet: MAINNET,
   goerli: GOERLI,
   rinkeby: RINKEBY,
+  unknown: GOERLI
 };
 
 export const DEFAULT_WAIT_N_CONFIRMATIONS = 1;
